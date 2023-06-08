@@ -1,0 +1,4 @@
+rootProject.name = 'H04E01-Layered-Architecture-Spring-Exercise'
+include('Shared')
+include('Client')
+include('Server')

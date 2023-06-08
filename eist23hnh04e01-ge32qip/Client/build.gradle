@@ -1,0 +1,34 @@
+plugins {
+    id 'java' apply true
+    id 'application' apply true
+    id 'org.openjfx.javafxplugin' version '0.0.12'
+    id 'org.springframework.boot' version '3.0.6'
+    id 'io.spring.dependency-management' version '1.1.0' apply true
+}
+
+group = 'de.tum.in.ase.eist'
+version = '2.0.0'
+sourceCompatibility = 17
+compileJava.options.encoding = 'UTF-8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation(project(path: ':Shared', configuration: 'default'))
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.14.2'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.14.2'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.14.2'
+    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+}
+
+javafx {
+    version = '17.0.2'
+    modules = ['javafx.base', 'javafx.controls', 'javafx.media']
+}
+
+application {
+    mainModule = 'Client'
+    mainClass = 'de.tum.in.ase.eist.ClientApplication'
+}
