@@ -1,4 +1,4 @@
-# REST-API
+# Record Management System.
 Spring Boot based REST-API project.
 
 Disclaimer:
