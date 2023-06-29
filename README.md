@@ -12,7 +12,7 @@ reply to REST requests that the client sends using Spring WebFlux.
 
 In order to deploy the application locally, please run both ServerApplication 
 and ClientApplication classes simultaneously. 
-If it doesn't run on gradle, reconfigure it to JDK 17.
+If it doesn't run on gradle, reconfigure to JDK 17.
 
 Disclaimer:
 This code was developed in conjuction with 
