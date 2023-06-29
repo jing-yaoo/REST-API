@@ -17,5 +17,4 @@ If it doesn't run on gradle, reconfigure to JDK 17.
 Disclaimer:
 This code was developed in conjuction with 
 the Technical University of Munich's EIST module. I do not own the rights 
-to any material found within the repository. Please contact the relevant department
-for usage/permission.
+to any material found within the repository.
